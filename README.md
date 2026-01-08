@@ -66,6 +66,6 @@ Mostra a integração entre SQL e Python no processo analítico.
 
 ---
 
-## 📄 Observação Final
+## Observação Final
 
 Este projeto prioriza **clareza, organização e fundamentos sólidos**, servindo como base para análises mais complexas em ambientes profissionais de dados.
