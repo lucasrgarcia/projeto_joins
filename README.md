@@ -58,7 +58,7 @@ Mostra a integração entre SQL e Python no processo analítico.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - SQL (SQLite)
 - Python
