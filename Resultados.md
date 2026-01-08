@@ -46,6 +46,8 @@ Esses cenários permitem avaliar o comportamento dos diferentes tipos de JOIN.
 INNER JOIN entre as tabelas `clientes` e `pedidos`.
 
 **Resultado obtido:**
+
+
 <img width="723" height="122" alt="image" src="https://github.com/user-attachments/assets/5c018099-c13c-4a37-90b7-d004f3ac1ae9" />
 
 **Interpretação:**  
@@ -61,6 +63,8 @@ Cada linha representa um pedido individual, evidenciando recorrência de compras
 LEFT JOIN com filtro para registros sem correspondência.
 
 **Resultado obtido:**
+
+
 <img width="225" height="113" alt="image" src="https://github.com/user-attachments/assets/76eb16ac-b0a9-408b-8e61-867beef72b50" />
 
 
@@ -76,6 +80,8 @@ Os clientes **Laylana** e **Ayla** não possuem histórico de compras registrado
 LEFT JOIN com normalização de valores ausentes (`COALESCE`).
 
 **Resultado obtido:**
+
+
 <img width="542" height="194" alt="image" src="https://github.com/user-attachments/assets/b89d3bc1-d506-41b6-aa80-fc2c832fd93d" />
 
 
@@ -92,6 +98,8 @@ evitando exclusões involuntárias de clientes sem pedidos.
 LEFT JOIN com agregação (`SUM`) e `GROUP BY`.
 
 **Resultado obtido:**
+
+
 <img width="501" height="166" alt="image" src="https://github.com/user-attachments/assets/71b8d169-961e-4cae-bbae-c878193702ad" />
 
 
@@ -108,22 +116,3 @@ Clientes sem pedidos permanecem visíveis no relatório com valor total igual a 
 - Biblioteca `tabulate` para visualização tabular no terminal
 
 ---
-
-## Como Executar o Projeto
-
-1. Clone o repositório:
-```bash
-git clone <url-do-repositorio>
-
-pip install tabulate
-
-python setup_database.py
-
-python main.py
-
-├── joins.sql
-├── setup_database.py
-├── main.py
-├── README.md
-
-
