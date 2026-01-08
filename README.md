@@ -5,7 +5,7 @@ O objetivo é demonstrar clareza na construção de consultas, tratamento de dad
 
 ---
 
-## 🎯 Objetivo do Projeto
+## Objetivo do Projeto
 
 - Demonstrar o uso correto de `INNER JOIN` e `LEFT JOIN`
 - Identificar registros sem correspondência entre tabelas
@@ -15,7 +15,7 @@ O objetivo é demonstrar clareza na construção de consultas, tratamento de dad
 
 ---
 
-## 🗂️ Modelo de Dados
+## Modelo de Dados
 
 ### Clientes
 - `id`: identificador do cliente
@@ -34,7 +34,7 @@ Esses casos permitem analisar diferentes comportamentos dos JOINs e problemas de
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - SQL (SQLite)
 - Python
@@ -43,7 +43,7 @@ Esses casos permitem analisar diferentes comportamentos dos JOINs e problemas de
 
 ---
 
-## 📊 Consultas Realizadas
+## Consultas Realizadas
 
 - **INNER JOIN**  
   Clientes que possuem pedidos registrados.
@@ -59,7 +59,7 @@ Esses casos permitem analisar diferentes comportamentos dos JOINs e problemas de
 
 ---
 
-## 📌 Exemplo de Saída
+## Exemplo de Saída
 
 As consultas são exibidas no terminal em formato tabular, facilitando a leitura e interpretação dos resultados.
 
